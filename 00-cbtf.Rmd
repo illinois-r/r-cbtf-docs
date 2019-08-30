@@ -1,0 +1,93 @@
+---
+title: "R and RStudio in the Computer-based Testing Facility"
+subtitle: "Configuration for STAT 385, STAT 430 DSPM, STAT 432, and CE 202"
+author: "James Joseph Balamuta"
+date: '`r Sys.Date()`'
+---
+
+
+# Accessing RStudio in _CBTF_
+
+To access _RStudio_ in the Computer-Based Testing Facility (CBTF), please go
+to upper right corner of your monitor and press `"Applications"`. In the
+drop down menu that appears, mouse over the `"Programming"` submenu. This
+opens up another menu that shows the different program editors available.
+Please click on the `"RStudio"` menu item.
+
+```{r out.width="60%", echo = FALSE}
+knitr::include_graphics("img/cbtf-rstudio-location.png")
+```
+
+When _RStudio_ opens, you will see **red text** indicating that _CRAN_ cannot
+be reached. **This is okay and is by design to meet the CBTF security model
+requirements.** All packages required by STAT 385, STAT 430 DSPM, STAT 432,
+and CE 202 have been pre-installed on the CBTF computer.
+
+```{r out.width="60%", echo = FALSE}
+knitr::include_graphics("img/cbtf-rstudio-view-startup.png")
+```
+
+
+# Creating an RMarkdown Document
+
+Please keep your work in an _RMarkdown_ document. To create an _RMarkdown_
+document, press the "White Plus" on the green background in the upper left
+corner and go down to the "R Markdown..." entry.
+
+```{r out.width="60%", echo = FALSE}
+knitr::include_graphics("img/cbtf-create-rmarkdown.png")
+```
+
+This will open a window asking what kind of _RMarkdown_ document you would like.
+Type in the `Title:` field `"CBTF Exam"` and then press okay.
+
+```{r out.width="60%", echo = FALSE}
+knitr::include_graphics("img/cbtf-rmarkdown-input.png")
+```
+
+From there, you should be ready to go! Please wait for the **proctors** to tell
+you when to being the exam. We wish you the best of luck and good ability on
+your exams and quizzes using _R_!
+
+```{r out.width="60%", echo = FALSE}
+knitr::include_graphics("img/cbtf-pl-exam.png")
+```
+
+# Common Errors
+
+Below are some common errors appear from time to time when 
+attempting to use _R_ and _RStudio_ in the CBTF.
+
+### Package Installation
+
+**Avoid trying to install packages**. As was shown in the beginning, 
+the package installation feature is disabled within the CBTF. Courses that use
+_R_ in the CBTF have all the necessary components for their assessments.
+
+### Accessing Data
+
+Pay close attention to where data is saved. Make sure to place the data file
+in the same folder that contains the _RMarkdown_ or _R_ Script to ensure it
+is able to be read in. Failure to do so may result in the data set not
+being found. These errors would look like:
+
+```r
+Error in file(file, "rt") : cannot open the connection
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'bad/path/to/data.rds': No such file or directory
+```
+
+### R Session Aborted
+
+When writing more advanced code, RStudio may crash during its execution.
+The crash error will look like:
+
+```{r rstudio-crash, out.width="60%", echo = FALSE}
+knitr::include_graphics("img/rstudio-session-aborted.png")
+```
+
+This indicates that there is a show-stopping bug in the code being executed. 
+Try to either debug the code or start from scratch and slowly build it up. 
+
+The proctors insides the CBTF **cannot** provide debugging assistance.
