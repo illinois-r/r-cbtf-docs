@@ -22,6 +22,7 @@ Contained within the repository are:
 
 ```bash
 ├── 00-cbtf.Rmd
+├── 00-cbtf.md
 ├── Makefile
 ├── README.md
 ├── img
@@ -31,17 +32,17 @@ Contained within the repository are:
 │   ├── cbtf-rmarkdown-input.png
 │   ├── cbtf-rstudio-location.png
 │   ├── cbtf-rstudio-view-startup.png
-│   ├── not-used
-│   │   ├── cbtf-desktop.png
-│   │   ├── cbtf-pl-course-select.png
-│   │   ├── cbtf-print-screen.png
-│   │   ├── cbtf-r-package-install-blocked.png
-│   │   ├── cbtf-r-via-terminal.png
-│   │   ├── click-firefox.png
-│   │   ├── install-packages-cbtf-warning.png
-│   │   ├── pl-cbtf-page.png
-│   │   └── shib-page.png
 │   └── rstudio-session-aborted.png
+├── img-not-used
+│   ├── cbtf-desktop.png
+│   ├── cbtf-pl-course-select.png
+│   ├── cbtf-print-screen.png
+│   ├── cbtf-r-package-install-blocked.png
+│   ├── cbtf-r-via-terminal.png
+│   ├── click-firefox.png
+│   ├── install-packages-cbtf-warning.png
+│   ├── pl-cbtf-page.png
+│   └── shib-page.png
 └── r-cbtf-docs.Rproj
 ```
 
