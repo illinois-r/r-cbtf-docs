@@ -13,7 +13,7 @@ menu item.
 When *RStudio* opens, you will see **red text** indicating that *CRAN*
 cannot be reached. **This is okay and is by design to meet the CBTF
 security model requirements.** All packages required by STAT 385, STAT
-430 DSPM, STAT 432, and CE 202 have been pre-installed on the CBTF
+430 DSPM, STAT 432, and CEE 202 have been pre-installed on the CBTF
 computer.
 
 <img src="img/cbtf-rstudio-view-startup.png" width="60%" style="display: block; margin: auto;" />
