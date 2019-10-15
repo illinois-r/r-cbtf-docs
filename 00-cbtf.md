@@ -1,3 +1,11 @@
+If for whatever reason there is an issue using the *R* environment
+during your examination, please immediately alert a proctor by raising
+your hand. Make sure to file an incident report with the proctor prior
+to leaving the testing facility.
+
+For more information, please see the FAQ item **[Problems During the
+Test](https://cbtf.engr.illinois.edu/for-students/faq.html#problems)**.
+
 Accessing RStudio in *CBTF*
 ===========================
 
@@ -51,6 +59,33 @@ use *R* and *RStudio* in the CBTF.
 package installation feature is disabled within the CBTF. Courses that
 use *R* in the CBTF have all the necessary components for their
 assessments.
+
+If a required package is missing from a computer, please immediately
+alert a proctor by raising your hand.
+
+### Copying and Pasting
+
+To copy and paste inside the CBTF, please use the following keyboard
+shortcuts:
+
+-   **Copy:** `CNTRL` + `C`
+-   **Paste:** `CNTRL` + `V`
+
+The `+` means hold down both `CNTRL` and `C` together to copy text.
+Alternatively, you can use file context menus `Edit` -&gt; `Copy` and
+`Edit` -&gt; `Paste`.
+
+Please avoid using the `Insert` key to paste results. The `Insert` key
+changes the cursor from being a flashing vertical bar (`|`) to a
+flashing horizontal bar (`_`).
+
+<img src="img/insert-mode.png" alt="Left denotes insert mode (`|`). Right denotes overtype mode (`_`)." width="25%" />
+<p class="caption">
+Left denotes insert mode (`|`). Right denotes overtype mode (`_`).
+</p>
+
+If you accidentally press `Insert`, the over type mode can be exited by
+pressing `Insert` again.
 
 ### Accessing Data
 
