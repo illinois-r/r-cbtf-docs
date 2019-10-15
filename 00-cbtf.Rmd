@@ -1,6 +1,6 @@
 ---
 title: "R and RStudio in the Computer-based Testing Facility"
-subtitle: "Configuration for STAT 385, STAT 430 DSPM, STAT 432, and CE 202"
+subtitle: "Configuration for STAT 385, STAT 430 DSPM, STAT 432, and CEE 202"
 author: "James Joseph Balamuta"
 date: '`r Sys.Date()`'
 ---
@@ -8,6 +8,14 @@ date: '`r Sys.Date()`'
 ```{r, include = FALSE} 
 knitr::opts_chunk$set(out.width="60%", echo = FALSE, fig.align = "center")
 ```
+
+If for whatever reason there is an issue using the _R_ environment during your
+examination, please immediately alert a proctor by raising your hand. Make
+sure to file an incident report with the proctor prior to leaving the
+testing facility.
+
+For more information, please see the FAQ item 
+**[Problems During the Test](https://cbtf.engr.illinois.edu/for-students/faq.html#problems)**.
 
 # Accessing RStudio in _CBTF_
 
@@ -65,6 +73,31 @@ attempting to use _R_ and _RStudio_ in the CBTF.
 **Avoid trying to install packages**. As was shown in the beginning, 
 the package installation feature is disabled within the CBTF. Courses that use
 _R_ in the CBTF have all the necessary components for their assessments.
+
+If a required package is missing from a computer, please immediately alert a
+proctor by raising your hand.
+
+### Copying and Pasting
+
+To copy and paste inside the CBTF, please use the following keyboard shortcuts:
+
+- **Copy:** `CNTRL` + `C`
+- **Paste:** `CNTRL` + `V`
+
+The `+` means hold down both `CNTRL` and `C` together to copy
+text. Alternatively, you can use file context menus `Edit` -> `Copy` and `Edit`
+-> `Paste`. 
+
+Please avoid using the `Insert` key to paste results. The `Insert` key changes
+the cursor from being a flashing vertical bar (`|`) to a flashing horizontal bar
+(`_`).
+
+```{r fig.cap="Left denotes insert mode (`|`). Right denotes overtype mode (`_`).", out.width="25%"}
+knitr::include_graphics("img/insert-mode.png")
+```
+
+If you accidentally press `Insert`, the over type mode can be exited by pressing 
+`Insert` again. 
 
 ### Accessing Data
 
