@@ -99,6 +99,22 @@ set not being found. These errors would look like:
     In file(file, "rt") :
       cannot open file 'bad/path/to/data.rds': No such file or directory
 
+When downloading files from a question, the local default save location
+is:
+
+    /home/<Your_NetID>/Downloads
+
+**Note:** Both *Firefox* and *Chrome* will default to the above
+location. However, if saved from *Firefox*, then you will receive a
+prompt to select a save location for a file with the default location
+prefilled. Whereas when using the *Chrome* web browser, the file will be
+silently saved to the default location.
+
+When saving an *R* script or *RMarkdown* file from *RStudio*, the
+default location that is saved to is:
+
+    /home/<Your_NetID>
+
 ### R Session Aborted
 
 When writing more advanced code, RStudio may crash during its execution.
